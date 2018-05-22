@@ -29,39 +29,33 @@
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
-	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
-	</script>
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	
 	<link rel="shortcut icon" href="favicon.ico">
-
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
 	<link href="css/font-awesome.css" rel="stylesheet">
-	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
 	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Superfish -->
 	<link rel="stylesheet" href="css/superfish.css">
-	<!-- Magnific Popup -->
 	<link rel="stylesheet" href="css/magnific-popup.css">
-	<!-- Date Picker -->
 	<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
-	<!-- CS Select -->
 	<link rel="stylesheet" href="css/cs-select.css">
 	<link rel="stylesheet" href="css/cs-skin-border.css">
-	
 	<link rel="stylesheet" href="css/style.css">
+	<link href="//fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet"> 
+	<link href="//fonts.googleapis.com/css?family=Yantramanav:100,300,400,500,700,900" rel="stylesheet">
 
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+	</script>
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<script src="js/jquery-2.2.3.min.js"></script> 
 	<script src="jquery.min.js"></script>
 	<script src="Scripts/jquery-1.4.1-vsdoc.js" type="text/javascript"></script>
     <script src="Scripts/jquery-1.4.1.js" type="text/javascript"></script>
+	<script src="Scripts/jquery-1.4.1-vsdoc.js" type="text/javascript"></script>
+    <script src="Scripts/jquery-1.4.1.js" type="text/javascript"></script>
 	
-	<link href="//fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet"> 
-	<link href="//fonts.googleapis.com/css?family=Yantramanav:100,300,400,500,700,900" rel="stylesheet">
+	
 	<!-- //web-fonts -->
 	<script language=Javascript>
 	       function isNumberKey(evt)
@@ -85,7 +79,7 @@
 						<!-- START #fh5co-menu-wrap -->
 						<nav id="fh5co-menu-wrap" role="navigation">
 							<ul class="sf-menu" id="fh5co-primary-menu">
-								<li class="active"><a href="index.php">Home</a></li>
+								<li class="active"><a href="admin.php">Home</a></li>
 								<li><a href="about_us.html">About Us</a></li>
 								<li><a href="contact.html">Contact Us</a></li>
 								<li><a href="alogout.php">Logout</a></li>
@@ -331,6 +325,7 @@
 	<script src="js/owl.carousel.js"></script>
 	<script src="js/SmoothScroll.min.js"></script>  
 	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
 	<script>
         w3ls.render();
 
@@ -344,7 +339,7 @@
         		}
         	}
         });
-    </script>  
+    </script>
 	<script>
 		$(document).ready(function() {
 			$("#owl-demo").owlCarousel ({
@@ -355,20 +350,7 @@
 			});
 		});
 	</script>
-	<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-			
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-	</script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$().UItoTop({ easingType: 'easeOutQuart' });
-		});
-	</script>
+	
 	<script>
 		$(document).ready(function(){
 		$("#form2eh").hide();
@@ -429,20 +411,7 @@
 			});
 		});
 	</script>
-	<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-			
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-	</script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$().UItoTop({ easingType: 'easeOutQuart' });
-		});
-	</script>
+	
 	<script language=Javascript>
        
        function isNumberKey(evt)

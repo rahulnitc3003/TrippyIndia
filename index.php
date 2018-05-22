@@ -47,7 +47,7 @@
 	    }
 	} else {
 		$authUrl = $gClient->createAuthUrl();
-		$output= '<a href="'.filter_var($authUrl, FILTER_SANITIZE_URL).'">Login With Google</a>';
+		$output= '<a href="'.filter_var($authUrl, FILTER_SANITIZE_URL).'">User Login</a>';
 		$outputlog="";
 	}
 ?>

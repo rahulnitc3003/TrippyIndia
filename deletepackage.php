@@ -91,7 +91,7 @@
 						<!-- START #fh5co-menu-wrap -->
 						<nav id="fh5co-menu-wrap" role="navigation">
 							<ul class="sf-menu" id="fh5co-primary-menu">
-								<li class="active"><a href="index.php">Home</a></li>
+								<li class="active"><a href="admin.php">Home</a></li>
 								<li><a href="about_us.html">About Us</a></li>
 								<li><a href="contact.html">Contact Us</a></li>
 								<li><a href="alogout.php">Logout</a></li>
